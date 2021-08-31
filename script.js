@@ -93,7 +93,7 @@ function gameover()
 {
     endgameE1.innerHTML = 
     `<h1> Time Ran Out </h1>
-    <p> Your FINAL SCORE IS ${score} </p>
+    <p> YOUR FINAL SCORE IS ${score} </p>
     <button onClick="location.reload()">Reload</button> 
     `;
     endgameE1.style.display = 'flex';
